@@ -1,1 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/c++   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/gtest_ex.dir/gtest_example.cpp.o  -o gtest_ex gtest/src/gtest-build/googlemock/gtest/libgtest.a 
