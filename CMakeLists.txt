@@ -1,7 +1,9 @@
 cmake_minimum_required(VERSION 3.10)
 
-if(MSVC)
-    # Download and unpack googletest at configure time
+enable_language(CXX)
+
+if(CMAKE_CXX_COMPILER_ID MATCHES "MSVC")
+	message(FATAL "MSVC FOUND")
     configure_file(CMakeLists.txt.in googletest-download/CMakeLists.txt)
     execute_process(COMMAND ${CMAKE_COMMAND} -G "${CMAKE_GENERATOR}" .
       RESULT_VARIABLE result
@@ -39,8 +41,8 @@ if(MSVC)
     add_test(NAME gtest_ex
              COMMAND gtest_ex)
 else()
-    project(test)
-
+ project(test)
+message(FATAL "msvc NOT found!!!!!!")
     include(ExternalProject)
     ExternalProject_Add(gtest
         GIT_REPOSITORY https://github.com/google/googletest/
@@ -60,5 +62,3 @@ else()
     add_test(NAME gtest_ex
              COMMAND gtest_ex)
 endif()
-
-
