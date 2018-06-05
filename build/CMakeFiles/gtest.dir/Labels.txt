@@ -1,0 +1,13 @@
+# Target labels
+ gtest
+# Source files and their labels
+/Users/sstefan/Desktop/gtest/build/CMakeFiles/gtest
+/Users/sstefan/Desktop/gtest/build/CMakeFiles/gtest.rule
+/Users/sstefan/Desktop/gtest/build/CMakeFiles/gtest-complete.rule
+/Users/sstefan/Desktop/gtest/build/gtest/src/gtest-stamp/gtest-install.rule
+/Users/sstefan/Desktop/gtest/build/gtest/src/gtest-stamp/gtest-mkdir.rule
+/Users/sstefan/Desktop/gtest/build/gtest/src/gtest-stamp/gtest-download.rule
+/Users/sstefan/Desktop/gtest/build/gtest/src/gtest-stamp/gtest-update.rule
+/Users/sstefan/Desktop/gtest/build/gtest/src/gtest-stamp/gtest-patch.rule
+/Users/sstefan/Desktop/gtest/build/gtest/src/gtest-stamp/gtest-configure.rule
+/Users/sstefan/Desktop/gtest/build/gtest/src/gtest-stamp/gtest-build.rule

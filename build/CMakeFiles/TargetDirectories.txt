@@ -1,0 +1,5 @@
+/Users/sstefan/Desktop/gtest/build/CMakeFiles/test.dir
+/Users/sstefan/Desktop/gtest/build/CMakeFiles/gtest_ex.dir
+/Users/sstefan/Desktop/gtest/build/CMakeFiles/rebuild_cache.dir
+/Users/sstefan/Desktop/gtest/build/CMakeFiles/edit_cache.dir
+/Users/sstefan/Desktop/gtest/build/CMakeFiles/gtest.dir
